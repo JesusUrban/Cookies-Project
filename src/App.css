@@ -1,0 +1,71 @@
+#root{
+   height: 100vh;
+
+}
+
+.wrapper{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+}
+
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    gap: .10em;
+    padding: 1.4cm 0;
+
+}
+
+.heading{
+   color: #fff;
+   text-align: center;
+   font-size: 2.5rem;
+   text-shadow: 5px 5px 0 #00000050 ;
+
+}
+
+.card{
+   width: 100%;
+   aspect-ratio: 16/9;
+   background-repeat: no-repeat;
+
+   background-image: url('rectangle.svg');
+   background-size: contain;
+   background-position: center;
+
+
+}
+
+.card__body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   padding: 0 2em;
+
+
+   max-width: 650px;
+   min-width: 380px;
+
+}
+
+.btn{
+   border: 2px solid #ffffffcc;
+   width: fit-content;
+   margin: 0 auto;
+   backdrop-filter: brightness(1.5) blur(5px);
+
+}
+img{
+   width: 9%;
+   margin-left: 75%;
+   
+
+}
